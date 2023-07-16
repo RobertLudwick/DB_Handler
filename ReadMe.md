@@ -14,7 +14,7 @@ def RetrieveOrderedDB(self, table,column):
 ```
 
 ### display.py
-This is all the code necessary for the in terminal UI, except for what is handled by DB_Handler.py. 
+This is all the code necessary for the in terminal UI, except for what is handled by DB_Handler.py. csv files need to be in the projec folder to be detected for now.
 
 ### main.py
 calls the main function in display.py 
