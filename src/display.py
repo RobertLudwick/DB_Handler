@@ -1,6 +1,6 @@
 import csv
 import curses
-from DB_Handler import DB_Handler
+from src.DB_Handler import DB_Handler
 import os
 from curses import wrapper
 

@@ -1,4 +1,4 @@
 from curses import wrapper
-import display
+import src.display as display
 
 wrapper(display.main)

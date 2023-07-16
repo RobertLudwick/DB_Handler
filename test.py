@@ -1,7 +1,7 @@
 #import main
-from DB_Handler import DB_Handler
+from src.DB_Handler import DB_Handler
 import os
-import display
+import src.display as display
 
 # files = "test.csv"
 
