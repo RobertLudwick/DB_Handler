@@ -1,1 +1,0 @@
-SELECT * FROM '/Users/robertludwick/Desktop/Python_Projects/DB_Handler/test.csv'

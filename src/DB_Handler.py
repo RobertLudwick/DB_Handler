@@ -14,10 +14,6 @@ class DB_Handler:
 
     #This will run multiple commands
     def CallDB(self, command):
-        print(command)
-        f = open('log.txt', 'w')
-        f.write(command)
-        f.close()
         with self.con:
             data = self.con.execute(command)
             return data
