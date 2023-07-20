@@ -83,4 +83,4 @@ class DB_Handler:
     
     #drop table
     def DropDB(self, table):
-        self.CallDB(f"DROP TABLE {table}")
+        self.CallDB(f"DROP TABLE '{table}'")
