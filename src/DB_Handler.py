@@ -3,7 +3,7 @@
 
 #import importlib
 import sqlite3 as sl
-#con = sl.connect('Pokemon.db', check_same_thread=False)
+#con = sl.connect('example.db', check_same_thread=False)
 
 #sql = ""
 class DB_Handler:
